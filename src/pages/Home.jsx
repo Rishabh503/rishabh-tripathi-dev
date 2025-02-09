@@ -1,7 +1,13 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail, Code, Twitter } from 'lucide-react';
 
 export const Home = () => {
+  const projects=[
+    {"img":"cga.png","title":"CGA","desc":"A static webiste for a coaching institute"},
+    {"img":"tamasaha.png","title":"Tamasha Bhawan","desc":"Landing page website for MUSIC ACADEMY"},
+    {"img":"attendence.png","title":"Attendence Manager","desc":"An tool to keep a track of your daily attendence"},
+    {"img":"todo.png","title":"TO-DO List","desc":"A typical but impresive TO-DO list"},
+  ]
   return (
     <div className="min-h-screen pt-20">
       <div className="max-w-7xl mx-auto px-6 py-20">
@@ -9,24 +15,22 @@ export const Home = () => {
           {/* Left Column - Text Content */}
           <div className="space-y-6">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-electric-blue to-neon-purple text-transparent bg-clip-text">
-              Hi, I'm [Your Name]
+              Hi, I'm <br /> RISHABH TRIPATHI
             </h1>
             <p className="text-xl text-gray-300">
               Full Stack Developer specializing in building exceptional digital experiences
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="glass-card glow-effect p-3 rounded-full">
+              <a href="https://github.com/Rishabh503" className="glass-card glow-effect p-3 rounded-full">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="glass-card glow-effect p-3 rounded-full">
+              <a href="https://www.linkedin.com/in/rishabh-tripathi-9985aa319/" className="glass-card glow-effect p-3 rounded-full">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="glass-card glow-effect p-3 rounded-full">
-                <Twitter className="w-6 h-6" />
+              <a href="https://leetcode.com/u/Rishabh2906/" className="glass-card glow-effect p-3 rounded-full">
+                <Code className="w-6 h-6" />
               </a>
-              <a href="#" className="glass-card glow-effect p-3 rounded-full">
-                <Mail className="w-6 h-6" />
-              </a>
+            
             </div>
           </div>
 
@@ -34,7 +38,7 @@ export const Home = () => {
           <div className="relative">
             <div className="aspect-square rounded-full overflow-hidden glass-card p-2 animate-float">
               <img
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=800"
+                src="image.png"
                 alt="Profile"
                 className="rounded-full object-cover w-full h-full"
               />
@@ -48,17 +52,17 @@ export const Home = () => {
         <div className="mt-32">
           <h2 className="text-3xl font-bold mb-8">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="glass-card p-6 glow-effect">
+            {projects.map((project,index) => (
+              <div key={index} className="glass-card p-6 glow-effect">
                 <div className="aspect-video rounded-lg overflow-hidden mb-4">
                   <img
-                    src={`https://images.unsplash.com/photo-${i}?auto=format&fit=crop&w=800`}
-                    alt={`Project ${i}`}
+                    src={project.img}
+                    alt={`Project ${project.img}`}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Project Title {i}</h3>
-                <p className="text-gray-300">Brief project description goes here.</p>
+                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <p className="text-gray-300">{project.desc}</p>
               </div>
             ))}
           </div>

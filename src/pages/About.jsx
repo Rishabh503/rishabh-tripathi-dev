@@ -6,17 +6,12 @@ export const About = () => {
     {
       category: "Frontend",
       icon: <Globe className="w-6 h-6 text-electric-blue" />,
-      items: ["React", "JavaScript", "Next.js", "Tailwind CSS"]
+      items: ["React", "JavaScript", "Tailwind CSS"]
     },
     {
       category: "Backend",
       icon: <Database className="w-6 h-6 text-neon-purple" />,
-      items: ["Node.js", "Express", "Python", "PostgreSQL"]
-    },
-    {
-      category: "DevOps",
-      icon: <Cpu className="w-6 h-6 text-green-400" />,
-      items: ["Docker", "AWS", "CI/CD", "Linux"]
+      items: ["Node.js", "Express", "MongoDB", "PostgreSQL"]
     },
     {
       category: "Tools",
@@ -60,7 +55,7 @@ export const About = () => {
         {/* Skills Section */}
         <div className="space-y-8">
           <h2 className="text-3xl font-bold">Skills & Technologies</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 justify-center gap-6">
             {skills.map((skill) => (
               <div key={skill.category} className="glass-card p-6 glow-effect">
                 <div className="flex items-center gap-3 mb-4">
