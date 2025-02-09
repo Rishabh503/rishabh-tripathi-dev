@@ -55,19 +55,20 @@ export const Connect = () => {
             <div className="glass-card p-8">
               <h2 className="text-2xl font-bold mb-6">Connect with me</h2>
               <div className="space-y-4">
-                <a href="#" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
+                <a href="https://github.com/Rishabh503" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
                   <Github className="w-6 h-6" />
+                
                   <span>Follow me on GitHub</span>
                 </a>
-                <a href="#" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
+                <a href="https://www.linkedin.com/in/rishabh-tripathi-9985aa319/" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
                   <Linkedin className="w-6 h-6" />
                   <span>Connect on LinkedIn</span>
                 </a>
-                <a href="#" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
+                {/* <a href="#" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
                   <Twitter className="w-6 h-6" />
                   <span>Follow me on Twitter</span>
-                </a>
-                <a href="#" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
+                </a> */}
+                <a href="rishabhtripathi2022@gmail.com" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
                   <Mail className="w-6 h-6" />
                   <span>Send me an email</span>
                 </a>
@@ -75,14 +76,14 @@ export const Connect = () => {
             </div>
 
             <div className="glass-card p-8">
-              <h2 className="text-2xl font-bold mb-6">Office Hours</h2>
+              <h2 className="text-2xl font-bold mb-6">Reach out to me </h2>
               <p className="text-gray-300 mb-4">
                 Available for meetings and calls during these hours:
               </p>
               <ul className="space-y-2 text-gray-300">
-                <li>Monday - Friday: 9:00 AM - 5:00 PM EST</li>
-                <li>Saturday: By appointment</li>
-                <li>Sunday: Closed</li>
+                <li>Monday - Friday: 5:00 AM - 10:00 PM EST</li>
+                <li>Saturday: Anytime</li>
+                <li>Sunday: Anytime</li>
               </ul>
             </div>
           </div>

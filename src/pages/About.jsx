@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Cpu, Database, Globe } from 'lucide-react';
+import { Braces, Code, Cpu, Database, Globe } from 'lucide-react';
 
 export const About = () => {
   const skills = [
@@ -17,6 +17,11 @@ export const About = () => {
       category: "Tools",
       icon: <Code className="w-6 h-6 text-yellow-400" />,
       items: ["Git", "VS Code", "Figma", "Postman"]
+    },
+    {
+      category: "Problem Solving",
+      icon: <Braces className="w-6 h-6 text-red-400" />,
+      items: ["JAVA", "C++", "Python", ""]
     }
   ];
 
@@ -32,7 +37,12 @@ export const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-300 mb-6">
-                I'm a passionate Full Stack Developer with a keen eye for creating elegant solutions to complex problems. With years of experience in web development, I specialize in building scalable applications that make a difference.
+              As a Full Stack Developer, I possess an impressive arsenal of skills in HTML, CSS, SCSS, JavaScript, React , Tailwind , Redux, Node.js, Next.js, Express.js and Mongo DB. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques.
+                
+              <p className="text-lg text-gray-300">
+<br />
+              I possess a keen interest in leveraging Data Structures and Algorithms using Java. I actively participate in coding contests to continually refine my skills.
+              </p>
               </p>
               <p className="text-lg text-gray-300">
                 When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical writing and mentoring.
@@ -42,7 +52,7 @@ export const About = () => {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden glass-card p-2">
                 <img
-                  src="https://images.unsplash.com/photo-1596003906949-67221c37965c?auto=format&fit=crop&w=800"
+                  src="rishabh.jpg"
                   alt="About Me"
                   className="rounded-2xl object-cover w-full h-full"
                 />
