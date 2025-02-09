@@ -1,5 +1,5 @@
 import React from 'react';
-import { Send, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Send, Github, Linkedin, Twitter, Mail, Phone } from 'lucide-react';
 
 export const Connect = () => {
   return (
@@ -72,6 +72,13 @@ export const Connect = () => {
                   <Mail className="w-6 h-6" />
                   <span>Send me an email</span>
                 </a>
+                <a href="https://wa.me/919650594608?text=Hello!%20I%20want%20to%20know%20more" className="flex items-center gap-4 p-4 glass-card glow-effect rounded-xl hover:scale-105 transition-transform">
+                  <Phone className="w-6 h-6" />
+                  <span>Chat with us on Whatsapp</span>
+                </a>
+
+              
+
               </div>
             </div>
 

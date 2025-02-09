@@ -2,7 +2,46 @@ import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 
 export const Projects = () => {
+
+  const projects1=[
+    {"img":"cga.png","title":"CGA","desc":"A static webiste for a coaching institute"},
+    {"img":"tamasaha.png","title":"Tamasha Bhawan","desc":"Landing page website for MUSIC ACADEMY"},
+    {"img":"attendence.png","title":"Attendence Manager","desc":"An tool to keep a track of your daily attendence"},
+    {"img":"todo.png","title":"TO-DO List","desc":"A typical but impresive TO-DO list"},
+  ]
   const projects = [
+    {
+      title: "CGA",
+      description: "A static website for a coaching institute",
+      image: "cga.png",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "#",
+      live: "#"
+    },
+    {
+      title: "Tamasha Bhawan",
+      description: "Landing page website for MUSIC ACADEMY",
+      image: "tamasaha.png",
+      tags: ["React", "CSS", "JavaScript"],
+      github: "#",
+      live: "#"
+    },
+    {
+      title: "Attendance Manager",
+      description: "A tool to keep track of your daily attendance",
+      image: "attendence.png",
+      tags: ["Python", "Flask", "SQLAlchemy"],
+      github: "#",
+      live: "#"
+    },
+    {
+      title: "TO-DO List",
+      description: "A typical but impressive TO-DO list",
+      image: "todo.png",
+      tags: ["JavaScript", "React", "Bootstrap"],
+      github: "#",
+      live: "#"
+    },
     {
       title: "E-Commerce Platform",
       description: "A full-stack e-commerce solution with real-time inventory management and payment processing.",
@@ -10,24 +49,10 @@ export const Projects = () => {
       tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
       github: "#",
       live: "#"
-    },
-    {
-      title: "AI Task Manager",
-      description: "Smart task management app with AI-powered prioritization and scheduling.",
-      image: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&w=800",
-      tags: ["Next.js", "OpenAI", "JavaScript", "MongoDB"],
-      github: "#",
-      live: "#"
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "Unified dashboard for managing multiple social media accounts with analytics.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800",
-      tags: ["React", "Redux", "Node.js", "Chart.js"],
-      github: "#",
-      live: "#"
     }
   ];
+  
+
 
   return (
     <div className="min-h-screen pt-20">
