@@ -3,10 +3,10 @@ import { Github, Linkedin, Mail, Code, Twitter } from 'lucide-react';
 
 export const Home = () => {
   const projects=[
-    {"img":"cga.png","title":"CGA","desc":"A static webiste for a coaching institute"},
-    {"img":"tamasaha.png","title":"Tamasha Bhawan","desc":"Landing page website for MUSIC ACADEMY"},
-    {"img":"attendence.png","title":"Attendence Manager","desc":"An tool to keep a track of your daily attendence"},
-    {"img":"todo.png","title":"TO-DO List","desc":"A typical but impresive TO-DO list"},
+    {"img":"cga.png","title":"CGA","desc":"A static webiste for a coaching institute","github":"https://github.com/Rishabh503/result_cga"},
+    {"img":"tamasaha.png","title":"Tamasha Bhawan","desc":"Landing page website for MUSIC ACADEMY","github":"https://github.com/Rishabh503/tamasha-bhawan"},
+    {"img":"attendence.png","title":"Attendence Manager","desc":"An tool to keep a track of your daily attendence","github":"https://github.com/Rishabh503/attendence"},
+    {"img":"todo.png","title":"TO-DO List","desc":"A typical but impresive TO-DO list","github":"https://github.com/Rishabh503/Todo-Website"},
   ]
   return (
     <div className="min-h-screen pt-20">
@@ -51,7 +51,7 @@ export const Home = () => {
         {/* Featured Projects Preview */}
         <div className="mt-32">
           <h2 className="text-3xl font-bold mb-8">Featured Projects</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" >
             {projects.map((project,index) => (
               <div key={index} className="glass-card p-6 glow-effect">
                 <div className="aspect-video rounded-lg overflow-hidden mb-4">
@@ -63,6 +63,11 @@ export const Home = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-gray-300">{project.desc}</p>
+                <a href={project.github}
+                >
+                  <Github className="w-8 h-8 p-1 mt-4 rounded-xl border" />
+                </a>
+                
               </div>
             ))}
           </div>
