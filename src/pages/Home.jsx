@@ -1,12 +1,12 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Code, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail, Code, Twitter, Braces, Globe, Layout, Monitor, AppWindow } from 'lucide-react';
 
 export const Home = () => {
   const projects=[
-    {"img":"cga.png","title":"CGA","desc":"A static webiste for a coaching institute","github":"https://github.com/Rishabh503/result_cga"},
-    {"img":"tamasaha.png","title":"Tamasha Bhawan","desc":"Landing page website for MUSIC ACADEMY","github":"https://github.com/Rishabh503/tamasha-bhawan"},
-    {"img":"attendence.png","title":"Attendence Manager","desc":"An tool to keep a track of your daily attendence","github":"https://github.com/Rishabh503/attendence"},
-    {"img":"todo.png","title":"TO-DO List","desc":"A typical but impresive TO-DO list","github":"https://github.com/Rishabh503/Todo-Website"},
+    {"img":"cga.png","title":"CGA","desc":"A static webiste for a coaching institute","github":"https://github.com/Rishabh503/result_cga","website":"https://result-cga.vercel.app/"},
+    {"img":"tamasaha.png","title":"Tamasha Bhawan","desc":"Landing page website for MUSIC ACADEMY","github":"https://github.com/Rishabh503/tamasha-bhawan","website":"https://tamasha-bhawan.vercel.app/"},
+    {"img":"attendence.png","title":"Attendence Manager","desc":"An tool to keep a track of your daily attendence","github":"https://github.com/Rishabh503/attendence","website":"https://attendence-chi.vercel.app/"},
+    {"img":"todo.png","title":"TO-DO List","desc":"A typical but impresive TO-DO list","github":"https://github.com/Rishabh503/Todo-Website","website":"https://todo-rishabh.vercel.app/"},
   ]
   return (
     <div className="min-h-screen pt-20">
@@ -63,11 +63,17 @@ export const Home = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-gray-300">{project.desc}</p>
-                <a href={project.github}
+              <div className='flex justify-between'>
+              <a href={project.github}
                 >
                   <Github className="w-8 h-8 p-1 mt-4 rounded-xl border" />
                 </a>
-                
+                <a href={project.website}
+                >
+                  <Globe  className="w-8 h-8 p-1 mt-4 rounded-xl border" />
+
+                </a>
+              </div>
               </div>
             ))}
           </div>
