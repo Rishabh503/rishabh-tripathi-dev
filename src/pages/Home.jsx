@@ -1,13 +1,17 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Code, Twitter, Braces, Globe, Layout, Monitor, AppWindow } from 'lucide-react';
+import FrontPage from './FrontPage';
 
 export const Home = () => {
   const projects=[
+    {"img":"exp.png","title":"EXPENSE MANAGER","desc":"Your one stop solution for your buckss ","github":"https://github.com/Rishabh503/my-expense-tracker","website":"https://my-expense-tracker-ochre.vercel.app/"},
     {"img":"cga.png","title":"CGA","desc":"A static webiste for a coaching institute","github":"https://github.com/Rishabh503/result_cga","website":"https://result-cga.vercel.app/"},
     {"img":"tamasaha.png","title":"Tamasha Bhawan","desc":"Landing page website for MUSIC ACADEMY","github":"https://github.com/Rishabh503/tamasha-bhawan","website":"https://tamasha-bhawan.vercel.app/"},
     {"img":"attendence.png","title":"Attendence Manager","desc":"An tool to keep a track of your daily attendence","github":"https://github.com/Rishabh503/attendence","website":"https://attendence-chi.vercel.app/"},
     {"img":"todo.png","title":"TO-DO List","desc":"A typical but impresive TO-DO list","github":"https://github.com/Rishabh503/Todo-Website","website":"https://todo-rishabh.vercel.app/"},
+   
   ]
+  // return <FrontPage/>
   return (
     <div className="min-h-screen pt-20">
       <div className="max-w-7xl mx-auto px-6 py-20">

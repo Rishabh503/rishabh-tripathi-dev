@@ -11,7 +11,7 @@ export const Navigation = () => {
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
     { path: '/projects', label: 'Projects' },
-    { path: '/resume', label: 'Resume' },
+    { path: '/', label: 'Resume' },
     { path: '/connect', label: 'Connect' },
   ];
 

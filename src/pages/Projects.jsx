@@ -11,6 +11,14 @@ export const Projects = () => {
   ]
   const projects = [
     {
+      title: "EXPENSE MANAGER",
+      description: "Your one stop solution for your buckss",
+      image: "exp.png",
+      tags: ["React", "Node.js", "Tailwind","BootStrap"],
+      github: "#",
+      live: "#"
+    }, 
+    {
       title: "CGA",
       description: "A static website for a coaching institute",
       image: "cga.png",
@@ -49,7 +57,9 @@ export const Projects = () => {
       tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
       github: "#",
       live: "#"
-    }
+    },
+   
+    
   ];
   
 
