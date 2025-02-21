@@ -53,30 +53,30 @@ export const Resume = () => {
       "expertise": "Expert",
       "experience": "Organized multiple successful college events, including hackathons, orientations, and gaming nights."
     },
-    // {
-    //   "skill": "Team Motivation Maestro",
-    //   "description": "Elevates team morale, fostering enthusiasm, collaboration, and peak performance.",
-    //   "expertise": "Advanced",
-    //   "experience": "Led diverse teams, ensured high energy levels, and maintained productivity even under tight deadlines."
-    // },
-    // {
-    //   "skill": "Crisis Management Pro",
-    //   "description": "Navigates high-pressure situations with composure, problem-solving, and swift decision-making.",
-    //   "expertise": "Advanced",
-    //   "experience": "Resolved last-minute event challenges, handled sponsorship crises, and ensured smooth execution under pressure."
-    // },
-    // {
-    //   "skill": "Networking Genius",
-    //   "description": "Connects with key industry leaders, leveraging relationships for growth and opportunities.",
-    //   "expertise": "Expert",
-    //   "experience": "Built an extensive network of professionals, sponsors, and industry experts to support events and initiatives."
-    // },
-    // {
-    //   "skill": "Strategic Decision Maker",
-    //   "description": "Analyzes complex situations and implements forward-thinking strategies for long-term success.",
-    //   "expertise": "Expert",
-    //   "experience": "Developed and executed strategies for sponsorship, event planning, and society growth, ensuring consistent success."
-    // }
+    {
+      "skill": "Team Motivation Maestro",
+      "description": "Elevates team morale, fostering enthusiasm, collaboration, and peak performance.",
+      "expertise": "Advanced",
+      "experience": "Led diverse teams, ensured high energy levels, and maintained productivity even under tight deadlines."
+    },
+    {
+      "skill": "Crisis Management Pro",
+      "description": "Navigates high-pressure situations with composure, problem-solving, and swift decision-making.",
+      "expertise": "Advanced",
+      "experience": "Resolved last-minute event challenges, handled sponsorship crises, and ensured smooth execution under pressure."
+    },
+    {
+      "skill": "Networking Genius",
+      "description": "Connects with key industry leaders, leveraging relationships for growth and opportunities.",
+      "expertise": "Expert",
+      "experience": "Built an extensive network of professionals, sponsors, and industry experts to support events and initiatives."
+    },
+    {
+      "skill": "Strategic Decision Maker",
+      "description": "Analyzes complex situations and implements forward-thinking strategies for long-term success.",
+      "expertise": "Expert",
+      "experience": "Developed and executed strategies for sponsorship, event planning, and society growth, ensuring consistent success."
+    }
   ]
   const education = [
     {
