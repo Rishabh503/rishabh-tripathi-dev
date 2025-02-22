@@ -15,40 +15,40 @@ export const Projects = () => {
       description: "Your one stop solution for your buckss",
       image: "exp.png",
       tags: ["React", "Node.js", "Tailwind","BootStrap"],
-      github: "#",
-      live: "#"
+      github: "https://github.com/Rishabh503/my-expense-tracker",
+      live: "https://my-expense-tracker-ochre.vercel.app/"
     }, 
     {
       title: "CGA",
       description: "A static website for a coaching institute",
       image: "cga.png",
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "#",
-      live: "#"
+      github: "https://github.com/Rishabh503/result_cga","website":"https://result-cga.vercel.app/",
+      live: "https://result-cga.vercel.app/"
     },
     {
       title: "Tamasha Bhawan",
       description: "Landing page website for MUSIC ACADEMY",
       image: "tamasaha.png",
       tags: ["React", "CSS", "JavaScript"],
-      github: "#",
-      live: "#"
+      github: "https://github.com/Rishabh503/tamasha-bhawan","website":"https://tamasha-bhawan.vercel.app/",
+      live: "https://tamasha-bhawan.vercel.app/"
     },
     {
       title: "Attendance Manager",
       description: "A tool to keep track of your daily attendance",
       image: "attendence.png",
       tags: ["Python", "Flask", "SQLAlchemy"],
-      github: "#",
-      live: "#"
+      github: "https://github.com/Rishabh503/attendence",
+      live: "https://attendence-chi.vercel.app/"
     },
     {
       title: "TO-DO List",
       description: "A typical but impressive TO-DO list",
       image: "todo.png",
       tags: ["JavaScript", "React", "Bootstrap"],
-      github: "#",
-      live: "#"
+      github: "https://github.com/Rishabh503/Todo-Website","website":"https://todo-rishabh.vercel.app/",
+      live: "https://todo-rishabh.vercel.app/"
     },
     {
       title: "E-Commerce Platform",
