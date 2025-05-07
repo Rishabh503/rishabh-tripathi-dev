@@ -3,14 +3,67 @@ import { Github, Linkedin, Mail, Code, Twitter, Braces, Globe, Layout, Monitor, 
 import FrontPage from './FrontPage';
 
 export const Home = () => {
-  const projects=[
-    {"img":"exp.png","title":"EXPENSE MANAGER","desc":"Your one stop solution for your buckss ","github":"https://github.com/Rishabh503/my-expense-tracker","website":"https://my-expense-tracker-ochre.vercel.app/"},
-    {"img":"cga.png","title":"CGA","desc":"A static webiste for a coaching institute","github":"https://github.com/Rishabh503/result_cga","website":"https://result-cga.vercel.app/"},
-    {"img":"tamasaha.png","title":"Tamasha Bhawan","desc":"Landing page website for MUSIC ACADEMY","github":"https://github.com/Rishabh503/tamasha-bhawan","website":"https://tamasha-bhawan.vercel.app/"},
-    {"img":"attendence.png","title":"Attendence Manager","desc":"An tool to keep a track of your daily attendence","github":"https://github.com/Rishabh503/attendence","website":"https://attendence-chi.vercel.app/"},
-    {"img":"todo.png","title":"TO-DO List","desc":"A typical but impresive TO-DO list","github":"https://github.com/Rishabh503/Todo-Website","website":"https://todo-rishabh.vercel.app/"},
-   
-  ]
+  const projects = [
+    {
+      "img": "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746642574/b51a5f67-9ff5-4c27-8b92-f5ae55102dba.png",
+      "title": "DSA Manager",
+      "desc": "A DSA platform for solving questions as a group",
+      "github": "https://github.com/Rishabh503/dsa-frontend",
+      "website": "https://dsa-frontend-one.vercel.app/"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746642674/d4f1746a-391d-4e18-8487-1dba34f1f1fc.png",
+      "title": "Innowave",
+      "desc": "The official website of Innowave",
+      "github": "https://github.com/Rishabh503/innowave",
+      "website": "https://innowave-rust.vercel.app/"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746641769/Screenshot_2025-05-07_234527_hxj8zn.png",
+      "title": "Tamasha Bhawan",
+      "desc": "Landing page website for MUSIC ACADEMY",
+      "github": "https://github.com/Rishabh503/tamasha-bhawan",
+      "website": "https://tamasha-bhawan.vercel.app/"
+    },
+    {
+      "img": "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746642617/0f38d3eb-6ae2-4ea7-857b-d1487b9f1fd7.png",
+      "title": "Task Manager",
+      "desc": "A task manager tool",
+      "github": "https://github.com/Rishabh503/task-manager",
+      "website": "https://task-manager-theta-rose.vercel.app/"
+    },
+    {
+      "img": "todo.png",
+      "title": "TO-DO List",
+      "desc": "A typical but impresive TO-DO list",
+      "github": "https://github.com/Rishabh503/Todo-Website",
+      "website": "https://todo-rishabh.vercel.app/"
+    },
+    {
+      "img": "cga.png",
+      "title": "CGA",
+      "desc": "A static webiste for a coaching institute",
+      "github": "https://github.com/Rishabh503/result_cga",
+      "website": "https://result-cga.vercel.app/"
+    },
+    {
+      "img": "exp.png",
+      "title": "EXPENSE MANAGER",
+      "desc": "Your one stop solution for your buckss ",
+      "github": "https://github.com/Rishabh503/my-expense-tracker",
+      "website": "https://my-expense-tracker-ochre.vercel.app/"
+    },
+    {
+      "img": "attendence.png",
+      "title": "Attendence Manager",
+      "desc": "An tool to keep a track of your daily attendence",
+      "github": "https://github.com/Rishabh503/attendence",
+      "website": "https://attendence-chi.vercel.app/"
+    }
+  ];
+  
+
+
   // return <FrontPage/>
   return (
     <div className="min-h-screen pt-20">
