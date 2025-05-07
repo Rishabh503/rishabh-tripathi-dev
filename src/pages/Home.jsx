@@ -9,7 +9,7 @@ export const Home = () => {
       "title": "DSA Manager",
       "desc": "A DSA platform for solving questions as a group",
       "github": "https://github.com/Rishabh503/dsa-frontend",
-      "website": "https://dsa-frontend-one.vercel.app/"
+      "website": "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746642471/9fdc50da-d81c-4a59-8cb9-a33f7e15e7f3.png"
     },
     {
       "img": "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746642674/d4f1746a-391d-4e18-8487-1dba34f1f1fc.png",

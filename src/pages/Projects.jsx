@@ -11,59 +11,72 @@ export const Projects = () => {
   ]
   const projects = [
     {
-      title: "EXPENSE MANAGER",
-      description: "Your one stop solution for your buckss",
-      image: "exp.png",
-      tags: ["React", "Node.js", "Tailwind","BootStrap"],
-      github: "https://github.com/Rishabh503/my-expense-tracker",
-      live: "https://my-expense-tracker-ochre.vercel.app/"
-    }, 
+      title: "DSA Manager",
+      description: "A DSA platform for solving questions as a group",
+      image: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746642471/9fdc50da-d81c-4a59-8cb9-a33f7e15e7f3.png",
+      tags: ["React", "Node.js", "MongoDB"],
+      github: "https://github.com/Rishabh503/dsa-frontend",
+      live: "https://dsa-frontend-one.vercel.app/"
+    },
     {
-      title: "CGA",
-      description: "A static website for a coaching institute",
-      image: "cga.png",
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Rishabh503/result_cga","website":"https://result-cga.vercel.app/",
-      live: "https://result-cga.vercel.app/"
+      title: "Innowave",
+      description: "The official website of Innowave",
+      image: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746642674/d4f1746a-391d-4e18-8487-1dba34f1f1fc.png",
+      tags: ["React", "CSS", "JavaScript"],
+      github: "https://github.com/Rishabh503/innowave",
+      live: "https://innowave-rust.vercel.app/"
     },
     {
       title: "Tamasha Bhawan",
       description: "Landing page website for MUSIC ACADEMY",
-      image: "tamasaha.png",
+      image: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746641769/Screenshot_2025-05-07_234527_hxj8zn.png",
       tags: ["React", "CSS", "JavaScript"],
-      github: "https://github.com/Rishabh503/tamasha-bhawan","website":"https://tamasha-bhawan.vercel.app/",
+      github: "https://github.com/Rishabh503/tamasha-bhawan",
       live: "https://tamasha-bhawan.vercel.app/"
     },
     {
-      title: "Attendance Manager",
-      description: "A tool to keep track of your daily attendance",
-      image: "attendence.png",
-      tags: ["Python", "Flask", "SQLAlchemy"],
-      github: "https://github.com/Rishabh503/attendence",
-      live: "https://attendence-chi.vercel.app/"
+      title: "Task Manager",
+      description: "A task manager tool",
+      image: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1746642617/0f38d3eb-6ae2-4ea7-857b-d1487b9f1fd7.png",
+      tags: ["React", "Node.js", "MongoDB"],
+      github: "https://github.com/Rishabh503/task-manager",
+      live: "https://task-manager-theta-rose.vercel.app/"
     },
     {
       title: "TO-DO List",
       description: "A typical but impressive TO-DO list",
       image: "todo.png",
       tags: ["JavaScript", "React", "Bootstrap"],
-      github: "https://github.com/Rishabh503/Todo-Website","website":"https://todo-rishabh.vercel.app/",
+      github: "https://github.com/Rishabh503/Todo-Website",
       live: "https://todo-rishabh.vercel.app/"
     },
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with real-time inventory management and payment processing.",
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800",
-      tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      github: "#",
-      live: "#"
+      title: "CGA",
+      description: "A static website for a coaching institute",
+      image: "cga.png",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Rishabh503/result_cga",
+      live: "https://result-cga.vercel.app/"
     },
-   
-    
+    {
+      title: "EXPENSE MANAGER",
+      description: "Your one stop solution for your buckss",
+      image: "exp.png",
+      tags: ["React", "Node.js", "Tailwind", "Bootstrap"],
+      github: "https://github.com/Rishabh503/my-expense-tracker",
+      live: "https://my-expense-tracker-ochre.vercel.app/"
+    },
+    {
+      title: "Attendance Manager",
+      description: "A tool to keep a track of your daily attendance",
+      image: "attendence.png",
+      tags: ["Python", "Flask", "SQLAlchemy"],
+      github: "https://github.com/Rishabh503/attendence",
+      live: "https://attendence-chi.vercel.app/"
+    }
   ];
   
-
-
+  
   return (
     <div className="min-h-screen pt-20">
       <div className="max-w-7xl mx-auto px-6 py-20">
